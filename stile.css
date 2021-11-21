@@ -1,0 +1,77 @@
+/* Reglas comunes ------------------------------- */
+* {
+  margin     : 0;
+  padding    : 0;
+  box-sizing : border-box;
+  transition : all 0.5s ease-out;
+}
+body {
+  font       : 16px sans-serif;
+  background : rgba(0,128,128,0.2);
+  padding    : 1rem;
+}
+main,header,nav,section,article,aside,footer {
+  outline    : 1px solid #fff;
+  background : rgba(0,0,0,0.1);
+}
+
+header,nav,article,aside,footer {
+  padding: 1rem;
+}
+
+section { background: rgba(255,255,0,0.1); }
+aside   { background: rgba(255,255,0,0.1); }
+
+.farmacia {
+  background-color: #00ca0e;
+}
+
+a {
+  outline: none;
+  text-decoration: none;
+  padding: 2px 1px 0;
+  color: #265301;
+}
+
+
+/* Smartphone ----------------------------------- */
+main {
+  display        : flex;
+  flex-direction : row;
+  flex-wrap      : wrap;
+}
+nav {
+  display        : flex;
+  flex-direction : column;
+}
+.menu {
+  background : rgba(0,0,255,0.2);
+  margin     : 1px;
+  padding    : 2px 1em;
+  text-align : center;
+}
+header,nav,section,aside,footer {
+  width: 100%;
+}
+
+/* Tablet --------------------------------------- */
+@media all and (min-width: 800px) {
+  section { flex: 3; order: 2; }
+  aside { flex: 1; order: 1; }
+  footer { order: 3; }
+  nav { 
+    flex-direction  : row;
+    justify-content : flex-end;
+  }
+}
+
+/* Desktop -------------------------------------- */
+@media all and (min-width: 800px) {
+  section {
+    display   : flex;
+    flex-wrap : wrap;
+    order: 1;
+  }
+  article { width: 50%; }
+  nav     { justify-content: center; }
+}
