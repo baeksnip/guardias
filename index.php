@@ -23,7 +23,7 @@ $f_url_informacion = ""; //url de esta web
 $f_url_qr = "qr.png"; // url fichero qr
 
 $hora_cambio_guardia = 9; // valor numerico 0-23 de la hora en la que se realiza el cambio de guardia
-$hora_cambio_guardia_am_pm = ""; //AM-PM
+if ($hora_cambio_guardia<12) $hora_cambio_guardia_am_pm="AM"; else $hora_cambio_guardia_am_pm="PM"; //AM-PM
 
 // TELEFONOS DE INTERES
 $t_urgencias = "112";
