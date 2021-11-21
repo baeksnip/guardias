@@ -1,0 +1,4 @@
+fecha;numero_farmacia;
+fecha;numero_farmacia;
+fecha;numero_farmacia;
+...
