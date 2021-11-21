@@ -22,7 +22,7 @@ $f_whatsapp = "";
 $f_url_informacion = ""; //url de esta web
 $f_url_qr = "qr.png"; // url fichero qr
 
-$hora_cambio_guardia = 0; // hora en la que se realiza el cambio de guardia
+$hora_cambio_guardia = 0; // valor numerico 0-23 de la hora en la que se realiza el cambio de guardia
 $hora_cambio_guardia_am_pm = ""; //AM-PM
 
 // TELEFONOS DE INTERES
