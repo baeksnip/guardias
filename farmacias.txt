@@ -1,0 +1,3 @@
+numero_farmacia;nombre_farmacia;direccion_farmacia;telefono_farmacia;distancia_pie;distancia_coche;url_google_maps_farmacia
+numero_farmacia;nombre_farmacia;direccion_farmacia;telefono_farmacia;distancia_pie;distancia_coche;url_google_maps_farmacia
+...
